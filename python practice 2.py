@@ -66,17 +66,67 @@
 #     print("Grade F")
 
 #7
-n=int(input("enter a number : "))
+# n=int(input("enter a number : "))
 
-if n%3==0 and n%5==0:
-    print(f"{n} is divisible by both")
+# if n%3==0 and n%5==0:
+#     print(f"{n} is divisible by both")
 
-elif n%3==0:
-    print(f"{n} is divisible by 3")
-elif n%5==0:
-    print(f"{n} is divisible by 5")
-else:
-    print(f"{n} is not divisible by 3 and 5 both") 
+# elif n%3==0:
+#     print(f"{n} is divisible by 3")
+# elif n%5==0:
+#     print(f"{n} is divisible by 5")
+# else:
+#     print(f"{n} is not divisible by 3 and 5 both") 
+
+#8
+# i=1
+
+# while i<=10:
+#     print(i)
+#     i=i+1
+
+#9
+# i=1
+
+# while i<=10:
+#    if i%2==0:
+#     print(i)
+#    i=i+1
+
+#10
+# i=1
+
+# while i<=20:
+#     if i%3==0:
+#      print(i)
+#     i=i+1
+
+#11
+# i=1
+# count=0
+
+# while i<=50:
+#     if i%5==0:
+#         print(i)
+#         count=count+1
+#     i=i+1
+
+# print("total numbers",count)
+
+#12
+# i=1
+# sum=0
+
+# while i<=20:
+#     sum=sum+i
+#     i=i+1
+
+# print("total sum",sum)
+
+
+
+
+
 
     
 
