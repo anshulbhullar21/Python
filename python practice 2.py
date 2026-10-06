@@ -123,6 +123,57 @@
 
 # print("total sum",sum)
 
+#13
+# i=1
+# sum=0
+
+# while i<=20:
+#     if i%2==0:
+#         sum=sum+i
+#     i=i+1
+
+# print(f"Total number is {sum}")
+
+#14
+# i=1
+# count=0
+
+# while i<=20:
+#     if i%2==0:
+#         count=count+1
+#     i=i+1     
+
+# print(f"total count is {count}")
+
+#15
+# i=20
+
+# while i>=1:
+#     print(i)
+#     i=i-1
+
+#16
+# i=10
+
+# while i>=1:
+#     print(i)
+#     i=i-1
+
+#17
+# i=1
+
+# while i<=10:
+#      print(i*i)
+#      i=i+1
+
+#18
+i=1
+
+while i<=10:
+    print(i*2)
+    i=i+1
+    
+
 
 
 
