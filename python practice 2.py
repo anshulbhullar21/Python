@@ -167,11 +167,16 @@
 #      i=i+1
 
 #18
-i=1
+# i=1
 
-while i<=10:
-    print(i*2)
-    i=i+1
+# while i<=10:
+#     print(i*2)
+#     i=i+1
+
+#19
+for i in range(1,11):
+    if i%2==0:
+     print(i)
     
 
 
