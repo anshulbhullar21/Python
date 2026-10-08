@@ -174,9 +174,18 @@
 #     i=i+1
 
 #19
-for i in range(1,11):
-    if i%2==0:
-     print(i)
+# for i in range(1,11):
+#     if i%2==0:
+#      print(i)
+
+#20
+nums=[1,2,4,8,6,1]
+target=7
+
+for i in range(len(nums)):
+    for j in range(len(nums)):
+        if nums[i]+nums[j]==target:
+            print(i,j)
     
 
 
