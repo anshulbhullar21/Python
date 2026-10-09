@@ -179,13 +179,34 @@
 #      print(i)
 
 #20
+# nums=[1,2,4,8,6,1]
+# target=7
+
+# for i in range(len(nums)):
+#     for j in range(len(nums)):
+#         if nums[i]+nums[j]==target:
+#             print(i,j)
+
+#21
 nums=[1,2,4,8,6,1]
 target=7
 
-for i in range(len(nums)):
-    for j in range(len(nums)):
-        if nums[i]+nums[j]==target:
-            print(i,j)
+i = 0
+
+while i < len(nums):
+    j = i + 1
+
+    while j < len(nums):
+        if nums[i] + nums[j] == target:
+            print(i, j)
+
+        j = j + 1
+
+    i = i + 1
+    
+    
+
+
     
 
 
