@@ -188,21 +188,26 @@
 #             print(i,j)
 
 #21
-nums=[1,2,4,8,6,1]
-target=7
+# nums=[1,2,4,8,6,1]
+# target=7
 
-i = 0
+# i = 0
 
-while i < len(nums):
-    j = i + 1
+# while i < len(nums):
+#     j = i + 1
 
-    while j < len(nums):
-        if nums[i] + nums[j] == target:
-            print(i, j)
+#     while j < len(nums):
+#         if nums[i] + nums[j] == target:
+#             print(i, j)
 
-        j = j + 1
+#         j = j + 1
 
-    i = i + 1
+#     i = i + 1
+
+#22
+for i in range(1,11):
+    if i%2!=0:
+        print(i)
     
     
 
