@@ -205,9 +205,41 @@
 #     i = i + 1
 
 #22
+# for i in range(1,11):
+#     if i%2!=0:
+#         print(i)
+
+#23
+# sum=0
+
+# for i in range(1,51):
+#     if i%2==0:
+#         sum=sum+i
+
+# print("total sum is",sum)
+
+#24
+# count=0
+
+# for i in range(1,101):
+#     if i%3==0:
+#         count=count+1
+
+# print("total count is",count)
+
+#25
+# n=int(input("enter a number "))
+
+# for i in range(1,n+1):
+#     print(i*i)
+
+#26
+n=int(input("enter a number "))
+
 for i in range(1,11):
-    if i%2!=0:
-        print(i)
+    print(n, "x", i, "=", n * i)
+
+
     
     
 
