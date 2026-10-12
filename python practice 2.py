@@ -234,10 +234,21 @@
 #     print(i*i)
 
 #26
-n=int(input("enter a number "))
+# n=int(input("enter a number "))
 
-for i in range(1,11):
-    print(n, "x", i, "=", n * i)
+# for i in range(1,11):
+#     print(n, "x", i, "=", n * i)
+
+#27
+# n=int(input("enter a number "))
+# fact=1
+
+# for i in range(1,n+1):
+#     fact=fact*i
+
+# print("fact is",fact)
+
+#28
 
 
     
