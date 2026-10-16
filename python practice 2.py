@@ -249,22 +249,33 @@
 # print("fact is",fact)
 
 #28
-n=int(input("enter a number "))
+# n=int(input("enter a number "))
 
-if n<2:
-    print("not prime")
-else:
-    is_prime=True
+# if n<2:
+#     print("not prime")
+# else:
+#     is_prime=True
 
-    for i in range(2,n):
-        if n%i==0:
-         is_prime=False
-        break
+#     for i in range(2,n):
+#         if n%i==0:
+#          is_prime=False
+#         break
 
-    if is_prime:
-     print("prime number")
-    else:
-       print("not prime")
+#     if is_prime:
+#      print("prime number")
+#     else:
+#        print("not prime")
+
+#29
+nums = [4, 8, 2, 10, 6]
+
+largest = nums[0]
+
+for i in nums:
+    if i > largest:
+        largest = i
+
+print(largest)
     
     
 
