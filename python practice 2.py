@@ -267,15 +267,38 @@
 #        print("not prime")
 
 #29
-nums = [4, 8, 2, 10, 6]
+# nums = [4, 8, 2, 10, 6]
 
-largest = nums[0]
+# largest = nums[0]
 
-for i in nums:
-    if i > largest:
-        largest = i
+# for i in nums:
+#     if i > largest:
+#         largest = i
 
-print(largest)
+# print(largest)
+
+#30
+# nums=[4,6,3,8,7]
+
+# largest=nums[0]
+# second_largest=None
+
+# for i in nums:
+#     if i>largest:
+#         second_largest=largest
+#         largest=i
+
+#     elif i < largest and (second_largest is None or i > second_largest):
+#         second_largest=i
+        
+# print("largest:",largest)
+# print("second_largest:",second_largest)
+
+
+
+
+       
+
     
     
 
