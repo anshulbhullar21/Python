@@ -35,22 +35,30 @@
 # print(found)
 
 #Best Time to Buy and Sell Stock
-prices=[7,4,2,8]
+# prices=[7,4,2,8]
 
-max_profit=0
-i=0
+# max_profit=0
+# i=0
 
-while i<len(prices):
-    j=i+1
+# while i<len(prices):
+#     j=i+1
 
-    while j<len(prices):
-        profit=prices[j]-prices[i]
+#     while j<len(prices):
+#         profit=prices[j]-prices[i]
 
-        if profit>max_profit:
-            max_profit=profit
+#         if profit>max_profit:
+#             max_profit=profit
 
-        j=j+1
+#         j=j+1
 
-    i=i+1
+#     i=i+1
 
-print(max_profit)        
+# print(max_profit)
+
+#PALINDROME
+s="madam"
+
+if s==s[::-1]:
+    print(True)
+else:
+    print(False)
